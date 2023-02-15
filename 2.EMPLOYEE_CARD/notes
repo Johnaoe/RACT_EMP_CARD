@@ -1,0 +1,35 @@
+npm create vite@latest   
+
+√ Project name: ... .
+√ Package name: ... 2-employee-card (enter)
+√ Select a framework: » React
+√ Select a variant: » JavaScript
+
+npm install
+npm run dev
+
+npm install vite-plugin-eslint --save-dev
+npm install eslint --save-dev
+npm install eslint-config-react-app --save-dev
+vite.config.js  -> 
+
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+import eslint from 'vite-plugin-eslint';
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react(), eslint()],
+})
+
+touch .eslintrc
+
+-> 
+{
+    "extends": [
+      "react-app"
+    ]
+  }
+
+npm install react-bootstrap bootstrap
+App.jsx  ->  import 'bootstrap/dist/css/bootstrap.min.css';

@@ -1,0 +1,131 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #79faef;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #e6fffd;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+#card{
+  background-image: url('./assets/bg-header-desktop.svg');
+  width: 50rem;
+  background-color: #7ccfc8;
+}
+
+#line{
+  border-radius: 5px;
+  background-color: white;
+  border: solid rgb(183, 183, 183) 1px;
+  height: 10rem;
+  padding: 10px;
+}
+#text{
+  float: left;
+}
+
+#line ul {
+  list-style-type: none;
+  margin: 1px;
+  padding: 0;
+  overflow: hidden;
+}
+
+#line li {
+  float: left;
+  margin: 5px;
+}
+#line h1{
+  font-size: 20px;
+}
+#image{
+  float: left;
+  margin: 25px;
+}
+.lowerText{
+  color: rgb(127, 126, 126);
+}
+
+.lowerText li{
+  padding-right: 40px;
+}
+
+.feature{
+  background-color: rgb(62, 61, 61);
+  color: white;
+  border-radius: 20px;
+  padding: 8px;
+}
+.new{
+  background-color: #2c9189;
+  border: solid 1px white;
+  color: white;
+  border-radius: 20px;
+  padding: 8px;
+}
+.snap{
+  color: #2c9189;
+  padding: 8px 8px 8px 0;
+}
