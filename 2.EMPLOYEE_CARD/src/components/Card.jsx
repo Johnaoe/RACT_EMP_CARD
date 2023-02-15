@@ -1,4 +1,4 @@
-import img from './assets/insure.svg';
+import img from '../assets/insure.svg';
 
 function Cardas() {
   return (
