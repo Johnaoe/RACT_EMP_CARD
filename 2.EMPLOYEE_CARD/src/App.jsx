@@ -1,9 +1,11 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Caps from "./components/Caps.jsx";
-import Cardas from "./components/Card.jsx";
+import Cardas from "./components/Cards.jsx";
 
-const isLoggedIn = false;
+// import Products from "./components/Products.jsx";
+
+const isLoggedIn = true;
 
 function App() {
 
@@ -12,6 +14,7 @@ function App() {
     <Caps /><br />
     {/* <Cardas /><br /> */}
     {isLoggedIn && <Cardas />}
+    {/* <Products/> */}
     </div>
   )
 }

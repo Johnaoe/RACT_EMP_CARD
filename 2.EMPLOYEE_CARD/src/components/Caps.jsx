@@ -5,7 +5,7 @@ function Caps() {
     <>
       <Card id='card'>
           <Card.Text>
-            <h4>Employees</h4>
+            <span>Employees</span>
           </Card.Text>
       </Card>
     </>
