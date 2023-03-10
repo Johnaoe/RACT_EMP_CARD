@@ -1,0 +1,7 @@
+.grayscale{
+  filter: grayscale(1);
+}
+
+.reserved {
+    font-weight: bold;
+}
